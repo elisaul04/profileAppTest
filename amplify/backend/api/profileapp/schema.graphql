@@ -1,0 +1,8 @@
+type user @model {
+  id: ID!
+  username: String!
+  firstname: String
+  lastname:String
+  bio:String
+  image:String
+}
