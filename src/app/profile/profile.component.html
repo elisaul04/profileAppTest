@@ -1,1 +1,58 @@
-<p>profile works!</p>
+<ul class="nav justify-content-end grey lighten-4 py-4">
+    <li class="nav-item">
+        <a class="nav-link active" href="#!">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#!">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#!">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#!">Disabled</a>
+    </li>
+</ul>
+<!-- Material form subscription -->
+<mdb-card>
+
+    <mdb-card-header class="info-color white-text text-center py-4">
+      <h5>
+        <strong>Subscribe</strong>
+      </h5>
+    </mdb-card-header>
+  
+    <!--Card content-->
+    <mdb-card-body class="px-lg-5">
+  
+      <!-- Form -->
+      <form class="text-center" style="color: #757575;">
+  
+        <p>Join our mailing list. We write rarely, but only the best content.</p>
+  
+        <p>
+           <a href="" target="_blank">See the last newsletter</a>
+        </p>
+  
+        <!-- Name -->
+        <div class="md-form mt-3">
+          <input type="text" id="materialSubscriptionFormPasswords" class="form-control" [(ngmodel)]="username" mdbInput>
+          <label for="materialSubscriptionFormPasswords">Name</label>
+        </div>
+  
+        <!-- E-mai -->
+        <div class="md-form">
+          <input type="text" id="materialSubscriptionFormEmail" class="form-control"  [(ngmodel)]="firstName" mdbInput>
+          <label for="materialSubscriptionFormEmail">E-mail</label>
+        </div>
+  
+        <!-- Sign in button -->
+        <button mdbBtn color="info" outline="true" rounded="true" block="true" class="z-depth-0 my-4 waves-effect" mdbWavesEffect
+          type="submit">Sign in</button>
+  
+      </form>
+      <!-- Form -->
+  
+    </mdb-card-body>
+  
+  </mdb-card>
+  <!-- Material form subscription -->
